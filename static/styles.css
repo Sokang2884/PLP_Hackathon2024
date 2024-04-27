@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #skyblue;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #666;
+    margin-top: 20px;
+}
+
+p {
+    color: #777;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}

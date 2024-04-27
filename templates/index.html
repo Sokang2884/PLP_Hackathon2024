@@ -1,0 +1,23 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random API Image</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <h1>PLP HACKATHON 2024</h1>
+  
+  <h4>Facts</h4>
+  <p>{{facts}}</p>
+  
+    <h4>Bored</h4>
+  <p>{{activity}}</p>
+    <!-- Display the random API image -->
+  <h4>My Dog</h4>
+    <img src="{{ image_url }}" alt="Random Image">
+</body>
+</html>
+
